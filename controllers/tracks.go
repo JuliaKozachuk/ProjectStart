@@ -3,7 +3,7 @@ package controllers
 import (
 	"net/http"
 
-	"github.com/JuliaKozachuk/ProjectStart/ProjectStart/models"
+	"github.com/JuliaKozachuk/ProjectStart/models"
 
 	"github.com/gin-gonic/gin"
 )
