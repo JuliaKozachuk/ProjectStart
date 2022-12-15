@@ -24,7 +24,6 @@ func main() {
 	password := os.Getenv("DB_PASSWORD")
 	sslmode := os.Getenv("DB_SSLMODE")
 
-	//"host=127.0.0.1 port=5432 user=postgres dbname=musicstore password=qwerty sslmode=disable")
 	postgres_data := fmt.Sprintf("host=%s port=%s user=%s dbname=%s password=%s sslmode=%s ", host, port, user, dbname, password, sslmode)
 	route := gin.Default() //Внутри этой функции инициализируем новый маршрутизатор Gin внутри переменной route.
 
